@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .main {
+        position: relative;
+    }
+
+    .div1 {
+        background-image: url("https://picsum.photos/400/400");
+        width: 400px;
+        height: 400px;
+        position: absolute;
+        top: 0;
+        z-index: -1;
+    }
+
+    .div2 {
+        background-color: white;
+        opacity: 0.5;
+        position: absolute;
+        top: 0;
+        height: 400px;
+        width: 200px;
+        z-index: 1;
+    }
+
+    .div3 {
+        position: absolute;
+        top: 50px;
+        z-index: 1;
+        text-align: center;
+        width: 400px;
+        color: red;
+        font-size: 26px;
+    }
+
+    .main2 {
+        position: relative;
+        top:0;
+        left: 450px;
+    }
+/* ---------antras su kitokiu background ---------------- */
+    .div21 {
+        background-image: url("https://picsum.photos/400/400");
+        width: 400px;
+        height: 400px;
+        position: absolute;
+        top: 0;
+        z-index: -1;
+    }
+
+    .div22 {
+        background-image: url("https://picsum.photos/400/400");
+        opacity: 0.5;
+        position: absolute;
+        top: 0;
+        height: 400px;
+        width: 200px;
+        z-index: 1;
+        border: 1px solid red;
+    }
+
+    .div23 {
+        position: absolute;
+        top: 50px;
+        z-index: 1;
+        text-align: center;
+        width: 400px;
+        color: red;
+        font-size: 26px;
+    }
+
+</style>
+
+<body>
+    <!-- pirmas -->
+    <div class="main">
+        <div class="div1">1</div>
+        <div class="div2">2</div>
+        <h2 class="div3">tekstas tekstas tekstas tekstas tekstas</h2>
+    </div>
+
+    <!--  antras toks pats-->
+    <div class="main2">
+        <div class="div21">1</div>
+        <div class="div22">2</div>
+        <h2 class="div23">tekstas tekstas tekstas tekstas tekstas</h2>
+    </div>
+
+</body>
+
+</html>
